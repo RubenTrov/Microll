@@ -1,5 +1,20 @@
 (kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 3aca13b9-4bad-4b31-8653-81a2c60ef29c)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (text "Main components:\n-STM32L4P5CGT6	<-might change	\n-LSM6DSLTR	IMU\n-(Undeecided)Voltage regulator 5V to 3.3V\n-ESP8266 or ESP32 for wifi\n\nFeatures\nUsb C port for programming."
+    (at 59.69 50.8 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 78d307d4-ca59-4105-98da-b0ba9ad0b8ba)
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )
