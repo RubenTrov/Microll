@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "ESP32")(type "KiCad")(uri "${KIPRJMOD}/ESP32.pretty")(options "")(descr ""))
+  (lib (name "AP7173-FNG-7")(type "KiCad")(uri "${KIPRJMOD}/AP7173-FNG-7.pretty")(options "")(descr ""))
 )

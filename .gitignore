@@ -1,4 +1,7 @@
 #Things to ignore
-Microll-backups
+Microll-backups*
 
 Microll.kicad_sch-bak
+
+_autosave*
+#auto

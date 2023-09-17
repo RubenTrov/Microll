@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "ESP32")(type "KiCad")(uri "${KIPRJMOD}/ESP32.kicad_sym")(options "")(descr ""))
+  (lib (name "AP7173-FNG-7")(type "KiCad")(uri "${KIPRJMOD}/AP7173-FNG-7.kicad_sym")(options "")(descr ""))
 )
