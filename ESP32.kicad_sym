@@ -6,10 +6,10 @@
     (property "Value" "ESP32-C3-WROOM-02-N4" (id 1) (at 0 10.16 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 0 0 0)
+    (property "Footprint" "ESP32:ESP32-C3-WROOM-02-N4" (id 2) (at 0 -20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
+    (property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf" (id 3) (at 0 -22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "ESP32-C3-WROOM-02-N4_0_1"

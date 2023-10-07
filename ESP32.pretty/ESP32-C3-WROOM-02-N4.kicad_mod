@@ -74,4 +74,9 @@
       )
     )
   )
+  (model "${KIPRJMOD}/3DModels/ESP32-C3-WROOM-02.STEP"
+    (offset (xyz -9 -6.9 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

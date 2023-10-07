@@ -2,4 +2,5 @@
   (lib (name "ESP32")(type "KiCad")(uri "${KIPRJMOD}/ESP32.kicad_sym")(options "")(descr ""))
   (lib (name "AP7173-FNG-7")(type "KiCad")(uri "${KIPRJMOD}/AP7173-FNG-7.kicad_sym")(options "")(descr ""))
   (lib (name "STM32")(type "KiCad")(uri "${KIPRJMOD}/STM32.kicad_sym")(options "")(descr ""))
+  (lib (name "DPDT_Switch_x2")(type "KiCad")(uri "${KIPRJMOD}/DPDT_Switch_x2.kicad_sym")(options "")(descr ""))
 )
