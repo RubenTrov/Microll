@@ -1346,6 +1346,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 78d307d4-ca59-4105-98da-b0ba9ad0b8ba)
   )
+  (text "TODOs:\nAdd decoupling capacitors to STM32\nAdd IO slots to the PCB itself\nAdd I2C communication between STM32 AND ESP32\nAdd connection between STM32 and IMU"
+    (at 147.32 31.75 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 86ffb152-c5f5-4dff-a782-fb84d6ff7bdb)
+  )
 
   (label "ESP32_USB+" (at 78.74 104.14 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1502,8 +1507,8 @@
     (pin "17" (uuid 95255907-6f2d-4640-8f95-daa2eb7d4ff8))
     (pin "18" (uuid 468cdc81-99e6-4771-a744-050e997c7c44))
     (pin "2" (uuid c439165c-e043-4f76-ae89-30e2c4c9177b))
-    (pin "4" (uuid ef679b22-96b3-4f67-98ac-7802a09f569d))
-    (pin "4" (uuid ef679b22-96b3-4f67-98ac-7802a09f569d))
+    (pin "4" (uuid ef679b22-96b3-4f67-98ac-7802a09f569e))
+    (pin "4" (uuid ef679b22-96b3-4f67-98ac-7802a09f569e))
     (pin "5" (uuid 9f92318a-3d51-4d07-8d9b-6edfd135c790))
     (pin "6" (uuid 827bfadf-50a4-4df2-ab76-d64d758f5827))
     (pin "7" (uuid 1820f14c-e658-411c-ab37-3cb60b0b35fc))
