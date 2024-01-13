@@ -38,6 +38,19 @@
   )
 
   (setup
+    (stackup
+      (layer "F.SilkS" (type "Top Silk Screen"))
+      (layer "F.Paste" (type "Top Solder Paste"))
+      (layer "F.Mask" (type "Top Solder Mask") (color "Black") (thickness 0.01))
+      (layer "F.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 1" (type "core") (thickness 1.51) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "B.Cu" (type "copper") (thickness 0.035))
+      (layer "B.Mask" (type "Bottom Solder Mask") (color "Black") (thickness 0.01))
+      (layer "B.Paste" (type "Bottom Solder Paste"))
+      (layer "B.SilkS" (type "Bottom Silk Screen"))
+      (copper_finish "HAL lead-free")
+      (dielectric_constraints no)
+    )
     (pad_to_mask_clearance 0)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
@@ -816,8 +829,8 @@
         )
       )
     )
-    (model "${KICAD6_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_Molex_105450-0101.wrl"
-      (offset (xyz 0 0 0))
+    (model "C:/Users/Ruben/Downloads/1054500101_stp/1054500101.stp"
+      (offset (xyz 0 0 1.6))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -1344,7 +1357,7 @@
     (property "ki_keywords" "usb ethernet video")
     (path "/6c16b716-d8c5-48f7-8b39-dc59bc0c9730")
     (attr smd)
-    (fp_text reference "U4" (at 0 -1.75 90) (layer "F.SilkS")
+    (fp_text reference "U4" (at 0 -2 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1fdf0452-3d71-435a-8c9a-eb5307aa1fdd)
     )
@@ -1512,7 +1525,7 @@
     (property "Sheetname" "")
     (path "/db190c1b-40eb-4d72-8006-3c30f71c3d4d")
     (attr smd)
-    (fp_text reference "U5" (at 5 -0.5 90 unlocked) (layer "F.SilkS")
+    (fp_text reference "U5" (at 0 0 90 unlocked) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 41667b01-5d27-49ed-a760-4f356ae44df7)
     )
@@ -1949,7 +1962,7 @@
 
   (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" (layer "B.Cu")
     (tstamp 3fdc77ee-b9bc-4114-8af8-ac06f72eebda)
-    (at 115.25 101.7 -90)
+    (at 120 101.25 -90)
     (descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open, labeled with numbers")
     (tags "solder jumper open")
     (property "Sheetfile" "Microll.kicad_sch")
