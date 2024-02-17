@@ -2949,6 +2949,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 437e607b-f3c2-4762-a110-a31070a0053d)
   )
+  (text "Run some QSPICE simulations on wat diode to use for Vin"
+    (at 45.72 16.51 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4722bd25-27ed-407d-a432-71490b361cd1)
+  )
   (text "For capacitors use\n1uF	C0402C105M9PACTU\n100nF (0.1uF) C0402C104K9PACTU\n4.7uF ????"
     (at 95.25 49.53 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
