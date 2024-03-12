@@ -5945,7 +5945,7 @@
 				(pin input line
 					(at -22.86 3.81 0)
 					(length 2.54)
-					(name "VERF+"
+					(name "VREF+"
 						(effects
 							(font
 								(size 1.27 1.27)
