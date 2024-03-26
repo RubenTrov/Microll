@@ -1,6 +1,7 @@
 This is going to be a small PCB with a microcontroller, IMU and a form of wirelessly transmitting that information though wifi/bluetooh.
 It will serve as a central piece for a lot of future IoT projects.
-![Microll_3D_PCB](https://github.com/RubenTrov/Microll/assets/104866446/45cc84ac-84fc-4c74-b084-b7b9cf9504e3)
+
+![Microll_3D_PCB](https://github.com/RubenTrov/Microll/assets/104866446/adbaad53-3648-441e-a02c-f3fd26bebdd2)
 ![Microll_V1_Layout](https://github.com/RubenTrov/Microll/assets/104866446/88a206c8-d2b8-48e0-aa99-db1a78bdd943)
 
 #How to program the PCB
