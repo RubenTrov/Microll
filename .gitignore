@@ -1,7 +1,12 @@
 #Things to ignore
-Microll-backups*
 
+#Ignore backups
+Microll-backups*
 Microll.kicad_sch-bak
 
+#Ignore autosave
 _autosave*
-#auto
+*auto_saved*
+
+#Ignore PCB lock
+*.lck

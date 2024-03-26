@@ -8806,29 +8806,6 @@
 		)
 		(uuid "3ba04b3a-38e7-425b-af02-ac1fd3bc500c")
 	)
-	(text "Possibly chhanging this to a USB C with less pins for easy routing. \nOr changing the annoying footprint keepout"
-		(exclude_from_sim no)
-		(at 12.7 72.39 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-				(color 255 68 103 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "3ca1adb5-a925-4418-a502-2c6d2a1fc0b9")
-	)
-	(text "Run some QSPICE simulations on wat diode to use for Vin"
-		(exclude_from_sim no)
-		(at 54.61 19.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4722bd25-27ed-407d-a432-71490b361cd1")
-	)
 	(text "For capacitors use\n1uF	C0402C105M9PACTU\n100nF (0.1uF) C0402C104K9PACTU\n4.7uF C0603C475K8PACTU"
 		(exclude_from_sim no)
 		(at 102.87 63.5 0)
