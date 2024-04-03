@@ -8795,6 +8795,16 @@
 		)
 		(uuid "2a7103f6-13ac-4299-b30b-d6602a1fa3a0")
 	)
+	(text "The Boot should've defaulted to +3.3V ont this side of the connection"
+		(exclude_from_sim no)
+		(at 244.856 130.556 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2d922f1c-64f1-40cf-8bd2-2fa4fc839b02")
+	)
 	(text "Programming STM32 via USB\nhttps://www.youtube.com/watch?v=VlCYI2U-qyM"
 		(exclude_from_sim no)
 		(at 231.14 162.56 0)
