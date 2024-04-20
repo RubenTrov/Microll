@@ -10254,14 +10254,13 @@
 	)
 	(text "Programming STM32 via USB\nhttps://www.youtube.com/watch?v=VlCYI2U-qyM"
 		(exclude_from_sim no)
-		(at 231.14 162.56 0)
+		(at 244.856 130.556 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
 		)
-		(uuid "3ba04b3a-38e7-425b-af02-ac1fd3bc500c")
+		(uuid "2d922f1c-64f1-40cf-8bd2-2fa4fc839b02")
 	)
 	(text "Change microcontroller package to larger for better soldering."
 		(exclude_from_sim no)
@@ -10284,7 +10283,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4722bd25-27ed-407d-a432-71490b361cd1")
+		(uuid "3ba04b3a-38e7-425b-af02-ac1fd3bc500c")
 	)
 	(text "For capacitors use\n1uF	C0402C105M9PACTU\n100nF (0.1uF) C0402C104K9PACTU\n4.7uF C0603C475K8PACTU"
 		(exclude_from_sim no)
