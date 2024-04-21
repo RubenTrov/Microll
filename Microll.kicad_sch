@@ -8816,17 +8816,6 @@
 		)
 		(uuid "ff5f1050-e342-49c2-89dd-8355c60e0ef2")
 	)
-	(text "Fihgure out mistery problem of why ESP32 didn't recognise USB"
-		(exclude_from_sim no)
-		(at 233.426 6.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "206cd007-3141-45a6-ab0a-b86ba6165cb4")
-	)
 	(text "Programming ESP32 WROOM ower USB\nhttps://www.youtube.com/watch?v=tQ0dL_9M1wI"
 		(exclude_from_sim no)
 		(at 231.14 156.21 0)
@@ -11211,7 +11200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g0b1cb.pdf"
 			(at 156.21 91.44 0)
 			(effects
 				(font
