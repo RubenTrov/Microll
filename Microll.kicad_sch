@@ -6,6 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Microll")
+		(date "2024-09-03")
+		(rev "3")
 	)
 	(lib_symbols
 		(symbol "+3.3V_1"
@@ -8904,6 +8906,26 @@
 			(justify left bottom)
 		)
 		(uuid "78d307d4-ca59-4105-98da-b0ba9ad0b8ba")
+	)
+	(text "Double check this"
+		(exclude_from_sim no)
+		(at 240.538 119.888 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "86432aeb-ba4b-4954-9774-09bf8b6a62e1")
+	)
+	(text "Use different resistors especially\nfor red as it has a different Vf\n "
+		(exclude_from_sim no)
+		(at 169.164 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d5f21080-34cd-4af3-9780-f3f5707d6207")
 	)
 	(label "EN"
 		(at 194.31 124.46 180)
