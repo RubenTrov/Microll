@@ -1,6 +1,9 @@
 (sym_lib_table
+  (version 7)
   (lib (name "ESP32")(type "KiCad")(uri "${KIPRJMOD}/ESP32.kicad_sym")(options "")(descr ""))
   (lib (name "AP7173-FNG-7")(type "KiCad")(uri "${KIPRJMOD}/AP7173-FNG-7.kicad_sym")(options "")(descr ""))
   (lib (name "STM32")(type "KiCad")(uri "${KIPRJMOD}/STM32.kicad_sym")(options "")(descr ""))
   (lib (name "DPDT_Switch_x2")(type "KiCad")(uri "${KIPRJMOD}/DPDT_Switch_x2.kicad_sym")(options "")(descr ""))
+  (lib (name "BSD235NH6327XTSA1")(type "KiCad")(uri "${KIPRJMOD}/BSD235NH6327XTSA1.kicad_sym")(options "")(descr ""))
+  (lib (name "NX7002AKW,115")(type "KiCad")(uri "${KIPRJMOD}/NX7002AKW,115.kicad_sym")(options "")(descr ""))
 )
