@@ -8039,6 +8039,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 52.07) (xy 273.05 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d909aed-d03f-4028-97bb-3fd5904f1686")
+	)
+	(wire
+		(pts
 			(xy 124.46 142.24) (xy 124.46 143.51)
 		)
 		(stroke
@@ -8149,7 +8159,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 54.61) (xy 273.05 54.61)
+			(xy 265.43 54.61) (xy 273.05 54.61)
 		)
 		(stroke
 			(width 0)
@@ -8536,6 +8546,16 @@
 			(type default)
 		)
 		(uuid "921767eb-5f51-4848-af52-41d88606bf24")
+	)
+	(wire
+		(pts
+			(xy 255.27 49.53) (xy 273.05 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92dc2b73-3e26-41db-b27d-5ef1a01f4224")
 	)
 	(wire
 		(pts
@@ -9109,6 +9129,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 54.61) (xy 255.27 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d1a41c-8733-4a82-8ab2-87a6e8f65a5c")
+	)
+	(wire
+		(pts
 			(xy 214.63 130.81) (xy 232.41 130.81)
 		)
 		(stroke
@@ -9419,7 +9449,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 57.15) (xy 273.05 57.15)
+			(xy 265.43 57.15) (xy 273.05 57.15)
 		)
 		(stroke
 			(width 0)
@@ -9447,17 +9477,6 @@
 			(justify left bottom)
 		)
 		(uuid "2a7103f6-13ac-4299-b30b-d6602a1fa3a0")
-	)
-	(text "Make sure to actually order the USB resistors for power."
-		(exclude_from_sim no)
-		(at 44.196 131.826 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "327daffd-d77b-4104-bfec-ebac20d6ea8b")
 	)
 	(text "Programming STM32 via USB\nhttps://www.youtube.com/watch?v=VlCYI2U-qyM"
 		(exclude_from_sim no)
@@ -9511,6 +9530,27 @@
 			)
 		)
 		(uuid "86432aeb-ba4b-4954-9774-09bf8b6a62e1")
+	)
+	(text "For resistors use\n330 RC0402JR-7D330RL\n5.1K\n10k"
+		(exclude_from_sim no)
+		(at 16.51 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b08f0faf-d32c-4545-b783-2266e361c543")
+	)
+	(text "Pontentially look for smaller alternative slide switches"
+		(exclude_from_sim no)
+		(at 45.974 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "be6de464-4a9f-44ce-8f20-b1403d61d896")
 	)
 	(label "EN"
 		(at 200.66 128.27 180)
@@ -10559,7 +10599,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 261.62 57.15 180)
+		(at 265.43 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10569,7 +10609,7 @@
 		)
 		(uuid "6b6d778b-a43a-45a0-8137-07e1819f116a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.6993 57.0706 0)
+			(at 259.5093 57.0706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10603,7 +10643,7 @@
 	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 261.62 54.61 180)
+		(at 265.43 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10613,7 +10653,7 @@
 		)
 		(uuid "6ef1b654-1770-47ba-bbe5-d87eb4edee3f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.6388 54.6894 0)
+			(at 259.4488 54.6894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12983,7 +13023,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 273.05 52.07 270)
+		(at 255.27 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12992,7 +13032,7 @@
 		(fields_autoplaced yes)
 		(uuid "499b8352-7c14-4dc7-a175-32e0492b9d4f")
 		(property "Reference" "#PWR014"
-			(at 266.7 52.07 0)
+			(at 255.27 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13001,16 +13041,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 269.24 52.0699 90)
+			(at 255.27 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 52.07 0)
+			(at 255.27 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13019,7 +13058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 52.07 0)
+			(at 255.27 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13028,7 +13067,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 273.05 52.07 0)
+			(at 255.27 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13635,7 +13674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
 			(at 151.13 36.83 0)
 			(effects
 				(font
@@ -14639,22 +14678,22 @@
 			)
 		)
 		(pin "4"
-			(uuid "9c04541f-bc28-464f-9c49-1c258fd4c9b2")
+			(uuid "9c04541f-bc28-464f-9c49-1c258fd4c9b3")
 		)
 		(pin "3"
-			(uuid "6a36763b-e761-4dea-a7df-31f642cf2798")
+			(uuid "6a36763b-e761-4dea-a7df-31f642cf2799")
 		)
 		(pin "6"
-			(uuid "642e2c78-d7fd-402a-b03f-49d66a5e1426")
+			(uuid "642e2c78-d7fd-402a-b03f-49d66a5e1427")
 		)
 		(pin "2"
-			(uuid "df37f2bd-ba66-416a-9018-20c7785c1ea8")
+			(uuid "df37f2bd-ba66-416a-9018-20c7785c1ea9")
 		)
 		(pin "1"
-			(uuid "29e5fcf4-a05d-4191-b87b-249aca0b724e")
+			(uuid "29e5fcf4-a05d-4191-b87b-249aca0b724f")
 		)
 		(pin "2"
-			(uuid "38eb353e-7f51-4db7-8b85-76a753702b1d")
+			(uuid "38eb353e-7f51-4db7-8b85-76a753702b1e")
 		)
 		(instances
 			(project ""
@@ -14962,7 +15001,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener"
+		(property "Value" "UFZV15B"
 			(at 63.5 39.37 90)
 			(effects
 				(font
@@ -14980,7 +15019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/zener/ufzvte-1715b-e.pdf"
 			(at 60.96 38.1 0)
 			(effects
 				(font
@@ -15765,7 +15804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
 			(at 175.26 36.83 0)
 			(effects
 				(font
@@ -16192,7 +16231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
 			(at 142.24 36.83 0)
 			(effects
 				(font
@@ -16296,7 +16335,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 273.05 49.53 90)
+		(at 255.27 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16305,7 +16344,7 @@
 		(fields_autoplaced yes)
 		(uuid "da556c4d-6ec9-4b5f-95b1-8bc558b05964")
 		(property "Reference" "#PWR012"
-			(at 276.86 49.53 0)
+			(at 255.27 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16314,16 +16353,15 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 269.24 49.5299 90)
+			(at 255.27 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 49.53 0)
+			(at 255.27 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16332,7 +16370,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 49.53 0)
+			(at 255.27 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16341,7 +16379,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 273.05 49.53 0)
+			(at 255.27 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16988,7 +17026,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "PMEG6020AELR"
 			(at 57.4675 29.21 0)
 			(effects
 				(font
@@ -17005,7 +17043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG6020AELR.pdf"
 			(at 57.15 33.02 0)
 			(effects
 				(font
