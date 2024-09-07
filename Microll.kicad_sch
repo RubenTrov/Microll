@@ -289,24 +289,6 @@
 				)
 			)
 			(symbol "BSD235NH6327XTSA1_2_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
@@ -336,6 +318,359 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "BSD235NH6327XTSA1_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -4.826 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BSD235NH6327XTSA1"
+				(at 11.684 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/BSD235N_Rev2%205.pdf?fileId=db3a30431add1d95011afc70075c04e0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BSD235NH6327XTSA1_1_0_1"
+				(circle
+					(center -0.889 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 1.905) (xy -2.286 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.27) (xy -1.778 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 0.508) (xy -1.778 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -1.778 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.778) (xy 0.762 -1.778) (xy 0.762 1.778) (xy -1.778 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -0.508 0.381) (xy -0.508 -0.381) (xy -1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0.508) (xy 0.381 0.381) (xy 1.143 0.381) (xy 1.27 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.381) (xy 0.381 -0.254) (xy 1.143 -0.254) (xy 0.762 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "BSD235NH6327XTSA1_1_1_1"
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "BSD235NH6327XTSA1_1_2_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7333,7 +7668,7 @@
 		(at 132.08 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4aba29fa-7532-4157-8c52-b3d9c26ae128")
+		(uuid "39f2b632-da00-4f37-a7c4-e29d0335123f")
 	)
 	(junction
 		(at 129.54 165.1)
@@ -7819,16 +8154,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 46.99) (xy 134.62 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c2e8506-d446-4c2c-b3dd-3b60a152d02d")
-	)
-	(wire
-		(pts
 			(xy 243.84 26.67) (xy 236.22 26.67)
 		)
 		(stroke
@@ -7866,6 +8191,16 @@
 			(type default)
 		)
 		(uuid "350745d0-e64f-4c2a-935c-a0617e4729f7")
+	)
+	(wire
+		(pts
+			(xy 125.73 46.99) (xy 132.08 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35fc408d-0aa3-4bd6-9d0b-93b22a59b95b")
 	)
 	(wire
 		(pts
@@ -9239,16 +9574,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 46.99) (xy 132.08 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e311f377-0494-425c-ab0e-2622469281b6")
-	)
-	(wire
-		(pts
 			(xy 114.3 172.72) (xy 129.54 172.72)
 		)
 		(stroke
@@ -9286,6 +9611,16 @@
 			(type default)
 		)
 		(uuid "e8770700-b04c-4837-9341-80f33832a924")
+	)
+	(wire
+		(pts
+			(xy 132.08 46.99) (xy 134.62 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9826085-64a5-4d0e-a3ae-b1e7fe0277cb")
 	)
 	(wire
 		(pts
@@ -10061,7 +10396,7 @@
 		(uuid "ada6bcbe-bff3-448e-ba8e-44590108bd2f")
 	)
 	(label "Red"
-		(at 129.54 46.99 0)
+		(at 125.73 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10315,7 +10650,7 @@
 	)
 	(global_label "SPI_MISO"
 		(shape bidirectional)
-		(at 227.33 101.6 180)
+		(at 227.33 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10325,7 +10660,7 @@
 		)
 		(uuid "01625325-bf60-487c-bf1c-d80a6b414811")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.5854 101.6 0)
+			(at 214.5854 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10689,7 +11024,7 @@
 	)
 	(global_label "SPI_MOSI"
 		(shape bidirectional)
-		(at 227.33 99.06 180)
+		(at 227.33 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10699,7 +11034,7 @@
 		)
 		(uuid "82426173-0739-48d5-895e-12e640ab3d92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.5854 99.06 0)
+			(at 214.5854 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13468,6 +13803,7 @@
 		)
 	)
 	(symbol
+		(lib_name "BSD235NH6327XTSA1_1")
 		(lib_id "BSD235NH6327XTSA1:BSD235NH6327XTSA1")
 		(at 142.24 46.99 0)
 		(unit 1)
@@ -13537,7 +13873,7 @@
 		(pin "1"
 			(uuid "29e5fcf4-a05d-4191-b87b-249aca0b724e")
 		)
-		(pin "2"
+		(pin "5"
 			(uuid "38eb353e-7f51-4db7-8b85-76a753702b1d")
 		)
 		(instances
@@ -14672,7 +15008,7 @@
 		(pin "1"
 			(uuid "29e5fcf4-a05d-4191-b87b-249aca0b724f")
 		)
-		(pin "2"
+		(pin "5"
 			(uuid "38eb353e-7f51-4db7-8b85-76a753702b1e")
 		)
 		(instances
@@ -17299,7 +17635,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx03_Slide_KingTek_DSHP03TJ_W5.25mm_P1.27mm_JPin"
+		(property "Footprint" "416131160803:WE_DIP_SWITCH_3_POS"
 			(at 240.03 133.35 0)
 			(effects
 				(font

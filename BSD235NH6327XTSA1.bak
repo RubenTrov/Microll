@@ -31,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/BSD235N_Rev2%205.pdf?fileId=db3a30431add1d95011afc70075c04e0"
 			(at 0 0 0)
 			(effects
 				(font
